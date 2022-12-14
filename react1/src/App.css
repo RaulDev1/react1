@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: burlywood;
+    text-align: center;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  button {
+    background-color: brown;
+    color: white;
+    padding: 5px 10px;
+  }
+
+  .food-show .edit {
+    padding: 5px;
+  }
+  
+  .button-1 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 38px;
+    padding: 7px;
+    font-size: large;
+  }
+  
+  .input-name {
+    margin-top: 85px;
+    width: 160px;
+    height: 30px;
+  }
+
+  .food-show {
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    background-color: chocolate;
+    border: 1px solid black;
+  }
+
+  .input {
+    width: 160px;
+    height: 30px;
+    padding: 5px;
+  }
+  
+  :placeholder-shown {
+    text-align: center;
+  }
+
+  .button {
+    cursor: pointer;
+  }
